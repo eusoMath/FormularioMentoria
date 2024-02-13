@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1, legend {
+    font-family: 'Staatliches', sans-serif;
+}
+
+h1, p {
+    color: #FFFFFF;
+}
+
+h1 {
+    margin-top: 102px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+p {
+    height: 46px;
+}
+
+.img {
+    margin-bottom: 32px;
+}
+
+body {
+    background: #BFD7E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body::before {
+    content: '';
+    background: #293241;
+    height: 465px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+form {
+    width: 750px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 392px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.legend-01 {
+    background: #F67669;
+    padding: 50px 275px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.informações-pessoais, .mentor-informations {
+    margin: 31px 64px;
+}
+
+.nome-sobrenome {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    color: #C1BCCC;
+    font-size: 12px;
+    line-height: 20px ;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.input-wrapper input {
+    margin-top: 9px;
+    margin-bottom: 18px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 55px;
+}
+
+.nome-sobrenome .input-wrapper input {
+    width: 300px;
+}
+
+.select-wrapper {
+    width: 300px;
+    margin-top: 9px;
+    margin-bottom: 18px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 55px;
+}
+
+legend {
+    padding: 50px 240px 7px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom: solid 1px #E6E6F0;
+}
+
+textarea {
+    height: 166px;
+    border: 1px solid #E6E6F0;
+}
+
+.mark-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 30px;
+}
+
+.das-ate {
+    display: flex;
+    gap: 10px;
+    width: 250px;
+}
+
+.das-ate input {
+    width: 140px;
+    padding: 10px;
+}
+
+.data-hora {
+    display: flex;
+    gap: 32px;
+    margin: 31px 64px;
+}
+
+.data-hora .input-wrapper:nth-child(1) {
+    width: 300px;
+}
+
+.button {
+    padding: 12.5px 286px;
+    margin: 0 64px 64px 64px;
+    background: #F67669;
+    font-family: 'Staatliches', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
